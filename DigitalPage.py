@@ -20,7 +20,7 @@ driver.find_element_by_name('owningIndividual.firstName').send_keys('VFIT')
 driver.find_element_by_name('owningIndividual.lastName').send_keys('VFIT')
 driver.find_element_by_name('owningIndividual.nation').send_keys('Italia').click()
 
-#select = Select(driver.find_element_by_name('owningIndividual.nation'))
+select = Select(driver.find_element_by_name('owningIndividual.nation'))
 
 # select by visible text
 
