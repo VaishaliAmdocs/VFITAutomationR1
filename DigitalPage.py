@@ -40,23 +40,6 @@ select.select_by_value('Italia')
 #driver.find_element_by_xpath('/html/body/section/div/div/div[1]/div/div[2]/div[1]/div/div/div/div/div[2]/div/div/div/div/div/div[1]/div/div/div/div/div[2]/div/div[2]/fieldset/div[3]/div/div/button[2]').click()
 
 
-sender = 'vtiwari@amdocs.com'
-receivers = ['vtiwari@amdocs.com']
-
-message = """From: From Person <vtiwari@amdocs.com>
-To: To Person <vtiwari@adocs.com>
-Subject: SMTP e-mail test
-
-This is a test e-mail message.
-"""
-print("maillllllll")
-
-try:
-   smtpObj = smtplib.SMTP('localhost')
-   smtpObj.sendmail(sender, receivers, message)
-   print ("Successfully sent email")
-except SMTPException:
-   print ("Error: unable to send email")
 
 #print("search box clicked")
 #driver.findElement(By.name("SAMLResponse")).TAB();
